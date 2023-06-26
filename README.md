@@ -2,7 +2,11 @@
 This is the repository for our paper titled "ChatGPT for Microservice Development: How far can we go?" submitted to [Microservices 2023](https://www.conf-micro.services/2023/).
 
 <p>
-Both microservices and generative AI play significant roles in code development, prompting the question of how generative AI can aid in building a microservice-based system. Although ChatGPT-4 has been evaluated for structuring microservices and generating code snippets, limited research exists on its ability to fully develop a microservice-based system. This paper aims to evaluate whether ChatGPT-4 can construct a complete system with minimal human oversight, using a known development example. To address this objective, we formulated the following research questions: Is it possible to fully build a microservices system  only using ChatGPT? What are the limitations of ChatGPT for building microservice architecture? What manual/human interventions are needed?
+Both microservices and generative AI play significant roles in code development, prompting the question of how generative AI can aid in building a microservice-based system. Although ChatGPT-4 has been evaluated for structuring microservices and generating code snippets, limited research exists on its ability to fully develop a microservice-based system. This paper aims to evaluate whether ChatGPT-4 can construct a complete system with minimal human oversight, using a known development example. To address this objective, we formulated the following research questions: 
+  
+- Is it possible to fully build a microservices system  only using ChatGPT? 
+- What are the limitations of ChatGPT for building microservice architecture? 
+- What manual/human interventions are needed?
 
 
 
@@ -11,7 +15,7 @@ The result of this paper will enable a new line of research into the automatic g
 The remainder of this paper presents related works, the approach adopted for building the system, a research roadmap towards automated generative microservice-based development.
 </p>
 
-In this repository, we included everything we used for conducting this study including the prompts and list of requirements. 
+<h3>In this repository, we included everything we used for conducting this study including the prompts and list of requirements.</h3>
 
 <h2>Prompts: </h2>
 Primary Chat: https://chat.openai.com/share/6eff2634-f79d-4fa6-9f9c-5638b20747e2 <br />
@@ -26,30 +30,30 @@ The approach turned out to be highly effective, as the developer discovered an i
 
 <h2>Requirements: </h2>
 
-This is a list of the high-level requirements. The detailed requirements are listed in the ChatGPT prompts.
+<h3>This is a list of the high-level requirements. The detailed requirements are listed in the ChatGPT prompts.</h3>
 
 <h3>Cart</h3>
 
-- Creates cart
-- Retrieves cart
-- Delete cart
-- Get the items in a cart
-- Add item to cart
-- Update item quanity
-- Delete an item from a cart
+- Create Cart
+- Retrieve Cart
+- Delete Cart
+- Retrieve all Products in Cart
+- Add Product to Cart
+- Update quantity of Product in Cart
+- Remove a Product from Cart
 
 <h3>Catalog</h3>
 
-- get all products in catalog
-- get product by id
-- create product
-- update product
-- delete product
+- Get all Products in Catalog
+- Get Product by Id
+- Create Product
+- Update Product
+- Delete Product
 
 <h3>User</h3>
 
-- get all users
-- get user by id
-- register new user
-- login w/ email & password (though plaintext)
-- delete user
+- Get all Users
+- Get User by id
+- Register new User
+- Login using email & password
+- Delete user
