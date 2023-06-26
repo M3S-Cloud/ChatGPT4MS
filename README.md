@@ -35,9 +35,9 @@ The approach turned out to be highly effective, as the developer discovered an i
 <h3>Cart</h3>
 
 - Create Cart
-- Retrieve Cart
+- Get Cart by Id
 - Delete Cart
-- Retrieve all Products in Cart
+- Get all Products in Cart
 - Add Product to Cart
 - Update quantity of Product in Cart
 - Remove a Product from Cart
@@ -53,7 +53,7 @@ The approach turned out to be highly effective, as the developer discovered an i
 <h3>User</h3>
 
 - Get all Users
-- Get User by id
+- Get User by Id
 - Register new User
 - Login using email & password
-- Delete user
+- Delete User
