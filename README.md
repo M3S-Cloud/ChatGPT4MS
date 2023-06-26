@@ -1,12 +1,12 @@
 # ChatGPT4MS
-This is the repository for our paper titled "ChatGPT for Microservice Development: How far can we go?" submitted to Microservices 2023: https://www.conf-micro.services/2023/.
+This is the repository for our paper titled "ChatGPT for Microservice Development: How far can we go?" submitted to [Microservices 2023](https://www.conf-micro.services/2023/).
 
 <p>
-Both microservices and generative AI play significant roles in code development, prompting the question of how generative AI can aid in building a microservice-based system. Although \chatgpt{} has been evaluated for structuring microservices and generating code snippets, limited research exists on its ability to fully develop a microservice-based system. This paper aims to evaluate whether \chatgpt{} can construct a complete system with minimal human oversight, using a known development example. To address this objective, we formulated the following research questions: Is it possible to fully build a microservices system  only using ChatGPT? What are the limitations of ChatGPT for building microservice architecture? What manual/human interventions are needed?
+Both microservices and generative AI play significant roles in code development, prompting the question of how generative AI can aid in building a microservice-based system. Although ChatGPT-4 has been evaluated for structuring microservices and generating code snippets, limited research exists on its ability to fully develop a microservice-based system. This paper aims to evaluate whether ChatGPT-4 can construct a complete system with minimal human oversight, using a known development example. To address this objective, we formulated the following research questions: Is it possible to fully build a microservices system  only using ChatGPT? What are the limitations of ChatGPT for building microservice architecture? What manual/human interventions are needed?
 
 
 
-To achieve this, we conducted a preliminary investigation by attempting to replicate SockShop\footnote{https://microservices-demo.github.io/}, a demonstration example of microservices systems, through conversation with \chatgpt{}.
+To achieve this, we conducted a preliminary investigation by attempting to replicate [SockShop](https://microservices-demo.github.io/), a demonstration example of microservices systems, through conversation with ChatGPT-4.
 The result of this paper will enable a new line of research into the automatic generation of new services or automated software maintenance. 
 The remainder of this paper presents related works, the approach adopted for building the system, a research roadmap towards automated generative microservice-based development.
 </p>
